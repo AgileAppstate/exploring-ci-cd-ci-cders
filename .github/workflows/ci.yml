@@ -25,3 +25,6 @@ jobs:
 
       - name: Run HelloWorld
         run: java HelloWorld
+
+      - name: Checkstyle
+        run: java -jar checkstyle-12.1.1-all.jar -c checkstyle.xml HelloWorld.java

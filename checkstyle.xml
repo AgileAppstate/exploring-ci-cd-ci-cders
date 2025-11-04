@@ -9,6 +9,5 @@
         </module>
     <module name="TreeWalker">
         <module name="Indentation"/>
-        <module name="TrailingWhitespace"/>
     </module>
 </module>
